@@ -1,0 +1,12 @@
+node_modules
+package-lock.json
+package.json
+tailwind.config.js
+tsconfig.json
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
