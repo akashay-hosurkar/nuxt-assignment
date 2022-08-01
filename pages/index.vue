@@ -1,6 +1,6 @@
 <template>
 <div class=" grid gap-x-7  grid-cols-3 h-screen" >
-    <div class="border-solid border-2 border-amber-600 drop-shadow-md bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 ">
+    <div class="border-solid border-2 border-amber-600 drop-shadow-md bg-gradient-to-r from-cyan-300 to-blue-200 ">
         <form>
              <h1 style="color: red" class="font-bold text-3xl p-6">Add product</h1>
             <table>
@@ -36,12 +36,12 @@
         </form>
     </div>
     <div class="bg-gray-300 col-span-2 flex">
-        <div class="m-10 h-52 w-52 border-4 border-red-600 ">
+        <div class="m-10 h-52 w-52 border-4 border-red-600 " v-for="(prod) in products" :key="prod">
         <img src="assets/guitar.jpg" class="h-35 w-35">
            product Name: <b>{{"Guitar"}}</b>
            prize:  <b>{{"1000"}}</b>
         </div>
-         <div class="m-10 h-52 w-52 border-4 border-red-600">
+         <div class="m-10 h-52 w-52 border-4 border-red-600" v-for="(prod) in products" :key="prod">
         <img src="assets/guitar.jpg" class="h-45 w-45">
            product Name: <b>{{"Guitar"}}</b>
            prize:  <b>{{"1000"}}</b>
