@@ -11,7 +11,7 @@
                 </tr>
                 <tr>
                     <td><label>Product Price :</label></td>
-                    <td><input type="text" v-model="prodata.price" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td>
+                    <td><input type="number" v-model="prodata.price" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td>
                 </tr>
                 <tr>
                     <td><label>Product Category:</label></td>
@@ -83,6 +83,9 @@ export default {
     name: 'formdataproduct',
     data() {
         return {
+            isEdit: false,
+            indexEdit: -1,
+            userAddress : "",
             proarr: [],
             prodata: {
                 pname: "",
@@ -117,7 +120,7 @@ export default {
                 color: "",
                 image : "",
             }
-            console.log("prodata is :", this.pproarr);
+            console.log("prodata is :", this.proarr);
         },
         deleteIndex(index) {
             this.proarr.splice(index, 1);

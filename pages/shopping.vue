@@ -41,8 +41,8 @@
                 <option value="shoes">Loafers</option>
             </select><br>
             <div class="inline-flex p-4 mt-4">
-                <div class="mr-8 border-2 px-2 border-black rounded-md"><a href="productform">Add Products</a></div>
-                <div class="ml-8 border-2 px-2 border-black rounded-md"><a href="productlist2">Shoe Category</a></div>
+                <div class="mr-8 border-2 px-2 border-black rounded-md"><a href="productlist2">Add Products</a></div>
+                <div class="ml-8 border-2 px-2 border-black rounded-md"><a href="productform">filter</a></div>
             </div>
         </a>
     </nav>
@@ -51,9 +51,9 @@
             <tr class="border-2 rounded-md border-black">
                 <td class="text-center p-2">
                     <div>
-                        <img src="assets/nike-black.jpg" alt="showimage" class="px-64  items-center ">
-                        <h3 class="font-bold text-xl">Shoes</h3>
-                        <p><b>This is Demo Show of Nike Brand</b></p>
+                        <img src="assets/watch.jpg" alt="showimage" class="px-64  items-center ">
+                        <h3 class="font-bold text-xl">Watches</h3>
+                        <p><b>This is black edition watches </b></p>
                         <h5><b>Rs 10,000/- only</b></h5>
 
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
@@ -62,9 +62,9 @@
                 </td>
                 <td class="p-2">
                     <div class="content text-center ">
-                        <img src="assets/nike-red.jpg" alt="showimage" class="px-64 items-center ">
-                        <h3 class="font-bold text-xl">Shoes</h3>
-                        <p><b>This is 2nd Demo Show of Nike Brand</b></p>
+                        <img src="assets/watch2.jpg" alt="showimage" class="px-64 items-center ">
+                        <h3 class="font-bold text-xl">Watches</h3>
+                        <p><b>This is simple watches </b></p>
                         <h5><b>Rs 11,200/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
                         <button class="buy-2 border-2 px-2  border-black rounded-md">Buy Now</button>
@@ -74,9 +74,9 @@
             <tr class="border-2 rounded-md border-black">
                 <td class="p-2">
                     <div class="content text-center">
-                        <img src="assets/nike-white.jpg" alt="showimage" class="px-64  items-center">
-                        <h3 class="font-bold text-xl">Shoes</h3>
-                        <p><b>This is 3rd Demo Show of Nike Brand</b></p>
+                        <img src="assets/wooden color.jfif" alt="showimage" class="px-64  items-center">
+                        <h3 class="font-bold text-xl">Watches</h3>
+                        <p><b>This is wooden colour</b></p>
                         <h5><b>Rs 11,500/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
                         <button class="buy-3 border-2 px-2  border-black rounded-md">Buy Now</button>
@@ -84,9 +84,9 @@
                 </td>
                 <td class="p-2">
                     <div class="content text-center">
-                        <img src="assets/puma.jfif" alt="showimage" class="px-64  items-center">
-                        <h3 class="font-bold text-xl">Shoes</h3>
-                        <p><b>This is 4th Puma Rsx shoe</b></p>
+                        <img src="assets/Brown watches.jfif" alt="showimage" class="px-64  items-center">
+                        <h3 class="font-bold text-xl">Watches</h3>
+                        <p><b>This Brown Edition</b></p>
                         <h5><b>Rs 13,200/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
                         <button class="buy-4 border-2 px-2  border-black rounded-md">Buy Now</button>
