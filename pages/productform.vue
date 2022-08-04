@@ -51,7 +51,7 @@
         <div>
             <label class="font-bold text-xl mr-16" for="searchpro">Search Product</label>
             <input @keyup="userFindByAddress(userAddress)" v-model="this.userAddress" class=" border-2 mt-4" type="text" name="searchpro" id="searchpro">
-            <!-- <button class=" border-2 font-bold rounded-md bg-red-300 text-blue-500 hover:bg-black  text-white p-2 text-center" type="search" @click="this.userFindByAddress(userAddress)">Search</button> -->
+            
         </div>
         <!-- 2nd table  -->
         <table border="2" class="border-2  bg-gray-100 mr-60 ml-32 p-6 border-solid border-black rounded-md mt-8 ">
@@ -70,8 +70,7 @@
                 <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{prod.price}}</td>
                 <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{prod.category}}</td>
                 <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{prod.color}}</td>
-                <!-- <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class=" border-2 font-bold rounded-md bg-red-300 text-blue-500 hover:bg-black  text-white p-2 text-center" @click="deletepro(i)">Delete Product</button></td> -->
-                <!-- <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class=" border-2 font-bold rounded-md bg-red-300 text-blue-500 hover:bg-black  text-white p-2 text-center" @click="editpro(i)">Edit</button></td> -->
+               
             </tr>
         </table>
     </div>
