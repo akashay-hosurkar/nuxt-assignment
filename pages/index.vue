@@ -1,12 +1,12 @@
 <template>
-<div class="content bg-slate-300">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+<div class="content bg-blue-200">
+    
     <h1 class="text-center font-extrabold text-5xl mt-8 bg-blue-200">Shopping Product List</h1>
 
     <nav class="text-center font-bold text-xl mt-8 ">
         <a>
 
-            <select name="Category" id="shoes" class="bg-gray-300">
+            <select name="Category" id="shoes" class="bg-blue-200">
                 <option value="shoes">Select watches</option>
                 <option value="shoes">Formal watches</option>
                 <option value="shoes">Casual watches</option>
@@ -23,8 +23,8 @@
                 <td class="text-center p-2">
                     <div>
                         <img src="assets/Diesel.jpg" alt="showimage" class="px-64  items-center ">
-                        <h3 class="font-bold text-xl">Puma</h3>
-                        <p><b>This is Demo Show of Puma Brand</b></p>
+                        <h3 class="font-bold text-xl">Diesel</h3>
+                        <p><b>This is  Diesel Brand</b></p>
                         <h5><b>Rs 10,000/- only</b></h5>
 
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
@@ -34,8 +34,8 @@
                 <td class="p-2">
                     <div class="content text-center ">
                         <img src="assets/watch2.jpg" alt="showimage" class="px-64 items-center ">
-                        <h3 class="font-bold text-xl">Nike</h3>
-                        <p><b>This is 2nd Demo Show of Nike Brand</b></p>
+                        <h3 class="font-bold text-xl">Casio</h3>
+                        <p><b>This is Casio Brand</b></p>
                         <h5><b>Rs 11,200/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
                         <!-- <button class="buy-2 border-2 px-2  border-black rounded-md">Buy Now</button> -->
@@ -46,8 +46,8 @@
                 <td class="p-2">
                     <div class="content text-center">
                         <img src="assets/Brown watches.jfif" alt="showimage" class="px-64  items-center">
-                        <h3 class="font-bold text-xl">Bata</h3>
-                        <p><b>This is 3rd Demo Show of Bata Brand</b></p>
+                        <h3 class="font-bold text-xl">Rolex</h3>
+                        <p><b>This is Rolex Brand</b></p>
                         <h5><b>Rs 11,500/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
                         <!-- <button class="buy-3 border-2 px-2  border-black rounded-md">Buy Now</button> -->
@@ -56,8 +56,8 @@
                 <td class="p-2">
                     <div class="content text-center">
                         <img src="assets/watch.jpg" alt="showimage" class="px-64  items-center">
-                        <h3 class="font-bold text-xl">RedChief</h3>
-                        <p><b>This is 4th Demo Show of RedChief Brand</b></p>
+                        <h3 class="font-bold text-xl">Matrix</h3>
+                        <p><b>This is Matrix Brand</b></p>
                         <h5><b>Rs 13,200/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
                         <!-- <button class="buy-4 border-2 px-2  border-black rounded-md">Buy Now</button> -->
@@ -73,7 +73,7 @@
     <title>
         Productlist Project
     </title>
-    <h1 class="text-center font-bold text-5xl mt-4 bg-green-400">Form To Add Products</h1>
+    <h1 class="text-center font-bold text-5xl mt-4 bg-blue-200">Form To Add Products</h1>
     <hr class="mt-5 border-1 border-black">
     <div class="sm  border-4 bg-blue-300 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-6 ">
         <form action="" name="myForm" onsubmit="return validateForm()" method="post">
@@ -151,7 +151,7 @@
 <!-- 2ndfrom starts  -->
 <div>
 
-    <div class="border-solid border-2 border-black drop-shadow-md bg-gradient-to-r from-cyan-300 to-blue-200 ">
+    <!-- <div class="border-solid border-2 border-black drop-shadow-md bg-gradient-to-r from-cyan-300 to-blue-200 ">
         <form action="" method="post">
             <h1 style="color: black" class="font-bold text-3xl p-1 bg-cyan-300 text-center">Shopping Product List</h1>
             <table class="ml-96">
@@ -180,14 +180,14 @@
                 </tr>
             </table>
         </form>
-    </div>
+    </div> -->
 
-    <div>
+    <!-- <div>
         <h1 class="font-semibold text-center text-3xl p-2 bg-blue-300"><b>My Cart</b></h1>
-    </div>
+    </div> -->
     <div>
         <table class="border-2  bg-gray-100 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-4">
-            <tr>
+            <!-- <tr>
                 <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">ID</td>
                 <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Image</td>
                 <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name</td>
@@ -196,7 +196,7 @@
                 <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td>
                 <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td>
                 <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td>
-            </tr>
+            </tr> -->
             <tr v-for="(item,i) in myarr" :key="item">
                 <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{item.id = i + 1}}</td>
                 <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><img src="assets/wooden color.jfif" alt="image"></td>
@@ -211,7 +211,7 @@
     </div>
 
     <table class="border-2  bg-gray-100 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-4 ">
-        <tr>
+        <!-- <tr>
             <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">ID</td>
             <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Image</td>
             <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name</td>
@@ -220,7 +220,7 @@
             <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td>
             <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td>
             <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td>
-        </tr>
+        </tr> -->
         <tr v-for="(item,index) in proarr" :key="item">
             <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8">{{item.id = index + 1}}</td>
             <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8"><img src="assets/sneaker.jpg" alt="image"></td>
