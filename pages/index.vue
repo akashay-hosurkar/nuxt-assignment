@@ -181,6 +181,7 @@
             </table>
         </form>
     </div>
+
     <div>
         <h1 class="font-semibold text-center text-3xl p-2 bg-blue-300"><b>My Cart</b></h1>
     </div>
@@ -208,6 +209,30 @@
             </tr>
         </table>
     </div>
+
+    <table class="border-2  bg-gray-100 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-4 ">
+        <tr>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">ID</td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Image</td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name</td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td>
+        </tr>
+        <tr v-for="(item,index) in proarr" :key="item">
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8">{{item.id = index + 1}}</td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8"><img src="assets/sneaker.jpg" alt="image"></td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8">{{item.pname}}</td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8">{{item.price}}</td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8">{{item.category}}</td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8">{{item.color}}</td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8"><button class=" border-2 font-bold rounded-md bg-red-300 text-blue-500 hover:bg-black  text-white p-2 text-center"  @click="deleteIndex(index)">Delete</button></td>
+            <td class="border-2  bg-blue-100 p-2 border-solid border-black rounded-md mt-8"><button class=" border-2 font-bold rounded-md bg-green-500 text-blue-500 hover:bg-black  text-white p-2 text-center"  @click="editIndex(index)">Edit</button></td>
+        </tr>
+    </table>
+
 </div>
 </template>
 
